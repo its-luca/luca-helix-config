@@ -35,8 +35,8 @@ if [ $? -ne 0 ]; then
   else
     wget https://github.com/helix-editor/helix/releases/download/25.01/helix-25.01-x86_64-linux.tar.xz
     tar xvf ./helix-25.01-x86_64-linux.tar.xz
-    cp ./helix-25.01-x86_64-linux.tar.xz/hx $INSTALL_DIR
-    cp -r ./helix-25.01-x86_64-linux.tar.xz/runtime $RT_DIR
+    cp ./helix-25.01-x86_64-linux/hx $INSTALL_DIR
+    cp -r ./helix-25.01-x86_64-linux/runtime $RT_DIR
   fi
 
   mkdir -p $INSTALL_DIR
