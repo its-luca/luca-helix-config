@@ -33,10 +33,7 @@ if [ $? -ne 0 ]; then
     cp helix-25.01-aarch64-macos/hx $INSTALL_DIR
     cp -r helix-25.01-aarch64-macos/runtime $RT_DIR
   else
-    wget https://github.com/helix-editor/helix/releases/download/25.01/helix-25.01-x86_64-linux.tar.xz
-    tar xvf ./helix-25.01-x86_64-linux.tar.xz
-    cp ./helix-25.01-x86_64-linux/hx $INSTALL_DIR
-    cp -r ./helix-25.01-x86_64-linux/runtime $RT_DIR
+    sudo snap install --classic helix
   fi
 
   mkdir -p $INSTALL_DIR
