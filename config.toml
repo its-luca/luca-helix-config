@@ -1,0 +1,14 @@
+theme = "term16_light"
+[keys.normal]
+H = "goto_line_start"
+L = "goto_line_end"
+'%' = "no_op"
+'&' = "flip_selections"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.soft-wrap]
+enable = true
+
+
