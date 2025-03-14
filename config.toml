@@ -5,6 +5,9 @@ L = "goto_line_end"
 '%' = "no_op"
 '&' = "flip_selections"
 
+[editor]
+true-color = true
+
 [editor.lsp]
 display-inlay-hints = true
 
